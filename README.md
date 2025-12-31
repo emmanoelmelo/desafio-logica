@@ -5,26 +5,25 @@ Projeto desenvolvido como parte do **Desafio Classificador de nível de Herói**
 Neste repositório, o desafio foi resolvido de **duas formas diferentes**, explorando abordagens distintas para o mesmo problema.
 
 
-## 📌 Desafio
+## 📌 Objetivo
 
-Criar um sistema que classifica o nível de um herói com base na sua quantidade de experiência (XP).
+Criar uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
 
 ### Regras de Classificação
 
-| XP do Herói            | Nível       |
-|------------------------|-------------|
-| Menor que 1.000        | Ferro       |
-| Até 2.000              | Bronze      |
-| Até 5.000              | Prata       |
-| Até 7.000              | Ouro        |
-| Até 8.000              | Platina    |
-| Até 9.000              | Ascendente |
-| Até 10.000             | Imortal    |
-| Acima de 10.000        | Radiante   |
+Se XP for menor do que 1.000 = Ferro
+Se XP for entre 1.001 e 2.000 = Bronze
+Se XP for entre 2.001 e 5.000 = Prata
+Se XP for entre 5.001 e 7.000 = Ouro
+Se XP for entre 7.001 e 8.000 = Platina
+Se XP for entre 8.001 e 9.000 = Ascendente
+Se XP for entre 9.001 e 10.000= Imortal
+Se XP for maior ou igual a 10.001 = Radiante
 
-### Saída esperada
+## Saída
 
-**O Herói de nome {nome} está no nível de {nivel}**
+Ao final deve se exibir uma mensagem:
+"O Herói de nome **{nome}** está no nível de **{nivel}**"
 
 ## 🧠 Conceitos Utilizados
 
